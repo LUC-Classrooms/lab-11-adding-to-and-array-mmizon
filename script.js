@@ -22,7 +22,7 @@ function draw() { //draw the below code on the canvas. runs continually unless o
   fill(100, 0, 200); //makes text color purple
   text("'dots' array length: " + dots.length, 100, 100); //makes text say "'dots' array length:" then the numnber of however make dots on onscreen 
   /* the number in the text updates continually to adjust to how many dots are created 
-  /*
+  */
 
 } //close function instructions
 
@@ -48,7 +48,7 @@ function Dot(X, Y){ //creates the function of dot so we can reuse it.
   this.b = random(0, 255); //refers to b. sets random color code for blue input 
 
   /*the above r, g, and b variables set the color of the dots to a random color every time a new one is created 
-  /*
+  */
   
   this.display = function(){ //defines the display function 
     fill(this.r, this.g, this.b); //use the determined variables above to assign a random color to the ellipse so it can be displayed
